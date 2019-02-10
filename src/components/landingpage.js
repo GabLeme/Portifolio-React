@@ -8,21 +8,21 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="http://shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            src="https://media.licdn.com/dms/image/C5603AQGEnvevPR8YpQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=QpIWnxk_fRZzSSdvPwU8QFesf9iXPGiaSW51STE9Ezw"
                             alt="avatar"
                             className="avatar-image"
                         />
                         <div className="banner-text">
                             <h1>Full Stack Developer</h1>
-                            <hr />
-                            <p>Angular 5+ | Javascript | React | Java | NodeJS | Express | MongoDB | SQL</p>
+                            <hr/>
+                            <p>Angular CLI | Javascript | React | Java | NodeJS | Express | MongoDB | SQL</p>
                             <div className="social-links">
 
-                                <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/gabriel-leme-71325b150/" rel="noopener noreferrer" target="_blank">
                                     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
 
-                                <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/GabLeme" rel="noopener noreferrer" target="_blank">
                                     <i class="fa fa-github-square" aria-hidden="true"></i>
                                 </a>
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
 
@@ -14,50 +14,110 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{
-                            color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'
-                        }}>React Project #1</CardTitle>
+                            color: '#fff', height: '176px', background: 'url(https://i.ibb.co/fkTQbBh/calculadora.png) center / cover'
+                        }}></CardTitle>
                         <CardText>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                            Calculadora funcional baseada na calculadora do MacOS, foi utilizado React para aprendizado do framework, acesse o Github para visualizar o código fonte.
                     </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/GabLeme/Calculadora" target="_blank"><Button colored>Github - Código fonte</Button></a>
                         </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
                     </Card>
 
 
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{
-                            color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'
-                        }}>React Project #2</CardTitle>
+                            color: '#fff', height: '176px', background: 'url(https://i.ibb.co/v19kXY1/portifolio.png) center / cover'
+                        }}></CardTitle>
                         <CardText>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                            Portifolio criado utilizando React + React-mdl, acesse o Github para visualizar o código fonte.
                     </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/GabLeme/Portifolio-React" target="_blank"><Button colored>Github - Código fonte</Button></a>
                         </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
                     </Card>
                 </div>
             )
         }
         else if (this.state.activeTab === 1) {
             return (
-                <div><h1>This is Angular CLI</h1></div>
+                <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{
+                            color: '#fff', height: '176px', background: 'url(https://i.ibb.co/Wc9Hb74/reembolso.png) center / cover'
+                        }}></CardTitle>
+                        <CardText>
+                            Sistema de reembolso responsivo criado utilizando Angular CLI 5+, NodeJS + Express + Loopback, MongoDB + SQL. O sistema foi criado para atender as novas regras da empresa após a compra de outra empresa.
+                            Código fonte sigiloso.
+                    </CardText>
+                        <CardActions border>
+                            <Button colored>Código não disponível</Button>
+                            <a style={{ textDecoration: 'none' }} href="http://ace.digisystem.com.br:8080/#/auth" target="_blank"><Button colored>Acessar Sistema</Button></a>
+                        </CardActions>
+
+
+                    </Card>
+                </div>
             )
         }
         else if (this.state.activeTab === 2) {
             return (
-                <div><h1>This is NodeJS</h1></div>
+                <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{
+                            color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/6/65/Imagem_n%C3%A3o_dispon%C3%ADvel.svg) center / cover'
+                        }}></CardTitle>
+                        <CardText>
+                            REST Api criada utilizando Express + MSSQL + configuração heroku, foi hospedada no Heroku para integração continua, acesse o Github para visualizar o código fonte.
+                    </CardText>
+                        <CardActions border>
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/GabLeme/Rest-API-NodeJS-Express" target="_blank"><Button colored>Github - Código fonte</Button></a>
+                        </CardActions>
+
+
+                    </Card>
+                </div>
             )
         }
         else {
             return (
-                <div><h1>This is Java</h1></div>
+                <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{
+                            color: '#fff', height: '176px', background: 'url(https://camo.githubusercontent.com/7eecbbcd068dea9f85c63a9795d31775a358e52f/68747470733a2f2f692e696d6775722e636f6d2f747332497679332e706e67) center / cover'
+                        }}></CardTitle>
+                        <CardText>
+                            Sistema web para monitoramento de Hardware utilizando OSHI Library, JSensors, Java + SQL, NodeJS + ASP.net | Angular, o projeto existe em duas versões, a versão do Angular logo estará disponível, acesse o Github para visualizar o código fonte.
+                        </CardText>
+                        <CardActions border>
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/GabLeme/taydunoc" target="_blank"><Button colored>Github - Código Fonte</Button></a>
+                        </CardActions>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{
+                            color: '#fff', height: '176px', background: 'url(https://i.ibb.co/nbJzj3z/alg.png) center / cover'
+                        }}></CardTitle>
+                        <CardText>
+                            Sistema web para monitoramento de temperatura utilizando Arduino UNO + NodeJS + ASP.net + SQL, acesse o Github para visualizar o código fonte.
+                        </CardText>
+                        <CardActions border>
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/GabLeme/ALGDigital" target="_blank"><Button colored>Github - Código Fonte</Button></a>
+                        </CardActions>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{
+                            color: '#fff', height: '176px', background: 'url(https://i.ibb.co/bgGg8zw/java.png) center / cover'
+                        }}></CardTitle>
+                        <CardText>
+                            Jogo de xadrez feito em Java com a ajuda do curso Java OOP Udemy, acesse o Github para visualizar o código fonte.
+                        </CardText>
+                        <CardActions border>
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/GabLeme/Sistema-de-Xadrez" target="_blank"><Button colored>Github - Código Fonte</Button></a>
+                        </CardActions>
+                    </Card>
+                </div>
             )
         }
     }
@@ -69,7 +129,7 @@ class Projects extends Component {
                     <Tab>React</Tab>
                     <Tab>Angular CLI</Tab>
                     <Tab>NodeJS</Tab>
-                    <Tab>Java</Tab>
+                    <Tab>Java | C#</Tab>
                 </Tabs>
 
                 <Grid>
