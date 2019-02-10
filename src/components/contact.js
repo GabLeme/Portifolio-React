@@ -10,21 +10,21 @@ class Contact extends Component {
                         <h2>Entre em contato</h2>
                         <hr />
                         <div className="contact-list">
-                            <List>
+                            <List style={{textAlign: 'center'}}>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '18px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-phone-square" aria-hidden="true" />
                                         (55) 11-9-5315-7683
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '18px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         gabriel.chimenezleme@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '18px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         gabriel.leme@bandtec.com.br
                                     </ListItemContent>
